@@ -1,0 +1,37 @@
+﻿:root {
+    --white: #fff;
+    --main: #b11313;
+    --secondary: #2b3784;
+}
+
+header {
+    width: 100%;
+    padding: 1rem 10%;
+    background-color: rgba(177, 19, 19, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 0px 0 var(--white);
+}
+
+.logo, .shortcut {
+    font-size: 3rem;
+    color: var(--white);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.logo:hover, .shortcut:hover {
+    color: var(--white);
+}
+
+.container {
+    margin-top: 100px;
+}
+
+footer {
+    height: 10px;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+}
